@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Cards from "../../components/Cards/Cards";
-import {gql, useQuery, useMutation} from "@apollo/client";
+import {gql, useQuery} from "@apollo/client";
 import "./plp.scss";
 
 const PLP_ATTRIBUTES = gql`
@@ -27,6 +27,7 @@ const CATEGORIES = gql`
 `;
 
 const ProductList = ({id}) => {
+    console.log('id', id);
 
     if (id == "" || !id) id = 1;
 
@@ -57,9 +58,12 @@ const ProductList = ({id}) => {
 
 
 const PLP = props => {
+    const { match } = props;
+    console.log(props);
+    console.log('match.params.id', match.params.id);
     return (
         <>
-            <ProductList  />
+            <ProductList id={match.params.id} />
         </>
     );
 };

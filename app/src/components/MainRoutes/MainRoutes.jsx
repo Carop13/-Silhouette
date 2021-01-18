@@ -6,9 +6,7 @@ import PLP from "../../RootComponents/PLP/PLP";
 const MainRoutes = () => {
     return (
         <Switch>
-            <Route exact path="/plp">
-                <PLP />
-            </Route>
+            <Route exact path={`/plp/:id`} component={PLP} />
             <Route exact path="/">
                 <Home />
             </Route>
