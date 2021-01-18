@@ -1,0 +1,19 @@
+.CardBox {
+  border: 1px solid #333;
+  padding: 15px;
+  max-width: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.imageContainer {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+}

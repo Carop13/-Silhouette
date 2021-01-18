@@ -15,6 +15,7 @@ const dataSources = () => ({
 });
 
 app.use(cookieParser());
+app.use(express.static('./public'));
 
 const server = new ApolloServer({
   typeDefs,
@@ -23,7 +24,6 @@ const server = new ApolloServer({
 });
 
 server.applyMiddleware({ app });
-
 app.listen(process.env.PORT || 4000, () => {
   console.log(`graphQL running at port 4000`);
 });

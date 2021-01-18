@@ -6,7 +6,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
-      "image": "/assets/images/Products/001",
+      "image": "/images/Products/001.jpg",
       "categories": [
         {
           "id": 1,
@@ -20,7 +20,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
-      "image": "/assets/images/Products/002",
+      "image": "/images/Products/002.jpg",
       "categories": [
         {
           "id": 1,
@@ -34,7 +34,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
-      "image": "/assets/images/Products/003",
+      "image": "/images/Products/003.jpg",
       "categories": [
         {
           "id": 1,
@@ -48,7 +48,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
-      "image": "/assets/images/Products/004",
+      "image": "/images/Products/004.jpg",
       "categories": [
         {
           "id": 2,
@@ -62,7 +62,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
-      "image": "/assets/images/Products/005",
+      "image": "/images/Products/005.jpg",
       "categories": [
         {
           "id": 2,
@@ -76,7 +76,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
-      "image": "/assets/images/Products/006",
+      "image": "/images/Products/006.jpeg",
       "categories": [
         {
           "id": 2,
@@ -90,7 +90,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
-      "image": "/assets/images/Products/007",
+      "image": "/images/Products/007.jpeg",
       "categories": [
         {
           "id": 3,
@@ -104,7 +104,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
-      "image": "/assets/images/Products/008",
+      "image": "/images/Products/008.jpeg",
       "categories": [
         {
           "id": 3,
@@ -118,7 +118,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
       "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
-      "image": "/assets/images/Products/009",
+      "image": "/images/Products/009.jpeg",
       "categories": [
         {
           "id": 3,
