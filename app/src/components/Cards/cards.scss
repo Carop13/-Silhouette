@@ -1,7 +1,7 @@
 .CardBox {
   border: 1px solid #333;
   padding: 15px;
-  max-width: 30%;
+  max-width: 48%;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
@@ -16,4 +16,10 @@
 .imageContainer img {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 668px) {
+  .CardBox {
+    max-width: 30%;
+  }
 }

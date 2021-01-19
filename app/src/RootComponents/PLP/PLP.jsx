@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import Cards from "../../components/Cards/Cards";
 import {gql, useQuery} from "@apollo/client";
-import "./plp.scss";
+import classes from "./plp.scss";
 
 const PLP_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
@@ -27,7 +27,6 @@ const CATEGORIES = gql`
 `;
 
 const ProductList = ({id}) => {
-    console.log('id', id);
 
     if (id == "" || !id) id = 1;
 
@@ -38,7 +37,6 @@ const ProductList = ({id}) => {
     if (loading) return <p>Loading products...</p>
     if (error) return <p>Error loading products!</p>
 
-    console.log('data', data.categoryById);
     let response = data.categoryById;
     let products = response.products;
 
@@ -58,12 +56,11 @@ const ProductList = ({id}) => {
 
 
 const PLP = props => {
-    const { match } = props;
-    console.log(props);
-    console.log('match.params.id', match.params.id);
+    const { match, classes: classes } = props;
+
     return (
         <>
-            <ProductList id={match.params.id} />
+            <ProductList id={match.params.id}/>
         </>
     );
 };

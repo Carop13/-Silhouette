@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../App/assets/images/logo.svg";
-import {gql, useQuery, useMutation} from "@apollo/client";
+import {gql, useQuery} from "@apollo/client";
 
-import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
+import { Input, Menu, Icon } from 'semantic-ui-react';
+import './header.css';
 
 const HEADER_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
@@ -30,53 +30,47 @@ const CategoriesList = () => {
     if (error) return <p>Error loading categories!</p>
 
     return (
-        <ul>
+        <>
         {
             data.categories.map(({id, title}) => (
-                <li key={id}>
-                    <a href={`/plp/${id}`}>{title}</a>
-                </li>
+                <Menu.Item
+                    name={title}
+                    href={`/plp/${id}`}
+                />
             ))
         }
-        </ul>
+        </>
     );
 }
 
-function NavLinks() {
+const NavLinks = () => {
     return (
-        <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-                <Link className="nav-link" to="/">
-                    Link 1
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="/">
-                    Link 2
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="/">
-                    Link 3
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="/">
-                    Link 4
-                </Link>
-            </li>
-        </ul>
+        <Menu.Menu position='right'>
+            <Menu.Item>
+                <Input icon='search' placeholder='Search...' />
+            </Menu.Item>
+            <Menu.Item>
+                <Icon name='user circle' />
+            </Menu.Item>
+            <Menu.Item>
+                <Icon name='shopping cart'/>
+            </Menu.Item>
+        </Menu.Menu>
     );
 }
 
 const Header = props => {
+
     return (
-        <header>
-            <Link to="/">
-                <img src={logo} alt="logo" width={"150px"} />
-            </Link>
-            <CategoriesList />
-        </header>
+        <Menu secondary>
+            <Menu.Item>
+                <img src={logo} alt="logo" width={"150px"}/>
+            </Menu.Item>
+
+            <CategoriesList/>
+
+            <NavLinks />
+        </Menu>
     );
 }
 

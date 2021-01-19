@@ -2,8 +2,11 @@ import React, {useContext} from "react";
 import "./cards.scss";
 import {ConfigContext} from "../App/App";
 
+import { mergeClasses } from '../../classify';
+
 const Cards = props => {
     const { id, name, image, shortDescription } = props;
+    const classes = mergeClasses(props.classes);
 
     const context = useContext(ConfigContext);
 
