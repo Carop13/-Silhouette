@@ -4,9 +4,11 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import MainRoutes from "../MainRoutes/MainRoutes";
 
+import './main.scss';
+
 const Main = () => {
     return (
-        <main>
+        <main className={'mainWrapper'}>
             <Header />
             <MainRoutes />
             <Footer />

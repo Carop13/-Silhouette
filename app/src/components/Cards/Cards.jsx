@@ -2,11 +2,8 @@ import React, {useContext} from "react";
 import "./cards.scss";
 import {ConfigContext} from "../App/App";
 
-import { mergeClasses } from '../../classify';
-
 const Cards = props => {
     const { id, name, image, shortDescription } = props;
-    const classes = mergeClasses(props.classes);
 
     const context = useContext(ConfigContext);
 
@@ -21,6 +18,7 @@ const Cards = props => {
                         <h3 className="panel-title">{'Product: ' + name}</h3>
                     </div>
                     <div className="panel-body">
+                        <label className="panel-title">{'SKU: ' + id}</label>
                         <h5>{shortDescription}</h5>
                     </div>
                 </div>

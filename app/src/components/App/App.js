@@ -1,7 +1,6 @@
 import React from "react";
 import { ApolloClient, ApolloProvider, HttpLink, InMemoryCache } from "@apollo/client";
 import Main from "../Main/Main";
-import {Home} from "../../RootComponents/Home/Home";
 import {BrowserRouter as Router} from "react-router-dom";
 
 export const ConfigContext = React.createContext();

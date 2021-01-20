@@ -1,7 +1,6 @@
 import React from "react";
 import Cards from "../../components/Cards/Cards";
 import {gql, useQuery} from "@apollo/client";
-import classes from "./plp.scss";
 
 const PLP_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
@@ -28,7 +27,7 @@ const CATEGORIES = gql`
 
 const ProductList = ({id}) => {
 
-    if (id == "" || !id) id = 1;
+    if (id === "" || !id) id = 1;
 
     const {loading, error, data} = useQuery(CATEGORIES, {
         variables: {id}
@@ -56,7 +55,7 @@ const ProductList = ({id}) => {
 
 
 const PLP = props => {
-    const { match, classes: classes } = props;
+    const { match } = props;
 
     return (
         <>
