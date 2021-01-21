@@ -9,10 +9,13 @@ import InputBase from '@material-ui/core/InputBase';
 import Menu from '@material-ui/core/Menu';
 
 import Badge from '@material-ui/core/Badge';
+import Button from '@material-ui/core/Button';
+import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import Link from '@material-ui/core/Link';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 import MenuItem from '@material-ui/core/MenuItem';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -22,6 +25,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
+
 
 const HEADER_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
@@ -48,17 +53,17 @@ const CategoriesList = () => {
     if (error) return <p>Error loading categories!</p>
 
     return (
-        <ul>
+        <>
         {
             data.categories.map(({id, title}) => (
-                <ListItem button key={id}>
-                    <Link href={`/plp/${id}`}>
+                <ListItem key={id} >
+                    <Button color="primary" href={`/plp/${id}`}>
                         {title}
-                    </Link>
+                    </Button>
                 </ListItem>
             ))
         }
-        </ul>
+        </>
     );
 }
 
@@ -164,10 +169,10 @@ const Header = props => {
     const renderMenu = (
         <Menu
             anchorEl={anchorEl}
-            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
             id={menuId}
             keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+            transformOrigin={{ vertical: 'bottom', horizontal: 'center' }}
             open={isMenuOpen}
             onClose={handleMenuClose}
         >
@@ -180,10 +185,10 @@ const Header = props => {
     const renderMobileMenu = (
         <Menu
             anchorEl={mobileMoreAnchorEl}
-            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
             id={mobileMenuId}
             keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+            transformOrigin={{ vertical: 'bottom', horizontal: 'center' }}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
         >
@@ -239,6 +244,10 @@ const Header = props => {
                     open={state['left']}
                     onClose={toggleDrawer('left', false)}>
                 <List>
+                    <ListItem >
+                        <ListItemText primary="Categories" />
+                    </ListItem>
+                    <Divider />
                     <CategoriesList />
                 </List>
             </Drawer>

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Product 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
       "image": "/images/Products/001.jpg",
       "categories": [
@@ -18,7 +18,7 @@
       "id": 2,
       "name": "Product 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
       "image": "/images/Products/002.jpg",
       "categories": [
@@ -32,7 +32,7 @@
       "id": 3,
       "name": "Product 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
       "image": "/images/Products/003.jpg",
       "categories": [
@@ -46,7 +46,7 @@
       "id": 4,
       "name": "Product 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
       "image": "/images/Products/004.jpg",
       "categories": [
@@ -60,7 +60,7 @@
       "id": 5,
       "name": "Product 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
       "image": "/images/Products/005.jpg",
       "categories": [
@@ -74,7 +74,7 @@
       "id": 6,
       "name": "Product 6",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
       "image": "/images/Products/006.jpeg",
       "categories": [
@@ -88,7 +88,7 @@
       "id": 7,
       "name": "Product 7",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$10.00",
       "image": "/images/Products/007.jpeg",
       "categories": [
@@ -102,7 +102,7 @@
       "id": 8,
       "name": "Product 8",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$20.00",
       "image": "/images/Products/008.jpeg",
       "categories": [
@@ -116,7 +116,7 @@
       "id": 9,
       "name": "Product 9",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
-      "shotDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": "$30.00",
       "image": "/images/Products/009.jpeg",
       "categories": [
