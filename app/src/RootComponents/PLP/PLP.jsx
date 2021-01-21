@@ -1,6 +1,8 @@
 import React from "react";
 import Cards from "../../components/Cards/Cards";
 import {gql, useQuery} from "@apollo/client";
+import { makeStyles } from '@material-ui/core/styles';
+import { Grid } from '@material-ui/core';
 
 const PLP_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
@@ -25,7 +27,18 @@ const CATEGORIES = gql`
     ${PLP_ATTRIBUTES}
 `;
 
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        padding: theme.spacing(2),
+    },
+    title: {
+        padding: theme.spacing(2),
+    }
+}));
+
 const ProductList = ({id}) => {
+    const classes = useStyles();
 
     if (id === "" || !id) id = 1;
 
@@ -41,14 +54,18 @@ const ProductList = ({id}) => {
 
     return (
         <>
-            <h2>{response.title}</h2>
-            <section className={"CardsSection"}>
+            <div className={classes.root}>
+                <h2 className={classes.title}>{response.title}</h2>
+                <Grid container spacing={3}>
                 {
                     products.map((data) => (
-                        <Cards {...data} key={data.id}/>
+                        <Grid item xs={12} sm={6} md={4} key={data.id}>
+                            <Cards {...data} />
+                        </Grid>
                     ))
                 }
-            </section>
+                </Grid>
+            </div>
         </>
     )
 };

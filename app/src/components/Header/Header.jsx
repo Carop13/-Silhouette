@@ -26,8 +26,6 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
-
-
 const HEADER_ATTRIBUTES = gql`
     fragment CategoryInfo on Category {
         id

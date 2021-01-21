@@ -10,6 +10,7 @@ import { Favorite as FavoriteIcon, ShoppingCart } from '@material-ui/icons';
 const useStyles = makeStyles({
     root: {
         maxWidth: 350,
+        margin: '0 auto'
     },
     media: {
         height: 250,
@@ -24,7 +25,7 @@ const Cards = props => {
     return (
         <>
             <Card className={classes.root}>
-                <CardActionArea>
+                <CardActionArea href={`/pdp/${id}`}>
                     <CardMedia
                         className={classes.media}
                         image={context.urlBE + image}
