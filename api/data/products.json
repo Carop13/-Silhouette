@@ -125,6 +125,90 @@
           "title": "Category 3"
         }
       ]
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$40.00",
+      "image": "/images/Products/010.jpeg",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Category 1"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Product 11",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$50.00",
+      "image": "/images/Products/011.jpeg",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Category 1"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Product 12",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$420.00",
+      "image": "/images/Products/012.jpg",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Category 1"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Product 13",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$320.00",
+      "image": "/images/Products/013.png",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Category 1"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Product 14",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$80.00",
+      "image": "/images/Products/014.jpg",
+      "categories": [
+        {
+          "id": 2,
+          "title": "Category 2"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Product 15",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet elementum tortor. Curabitur nec nunc volutpat nisi rhoncus venenatis id ac metus.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$65.00",
+      "image": "/images/Products/015.jpg",
+      "categories": [
+        {
+          "id": 2,
+          "title": "Category 2"
+        }
+      ]
     }
   ]
 }
